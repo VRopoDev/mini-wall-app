@@ -1,0 +1,27 @@
+# MIniWall backend app with nodejs express
+
+This is an app that provides API endpoints for users in a social media platform.
+Users can create/edit posts, like and comment on others post.
+
+# Stack
+
+Nodejs Express, MongoDB
+
+# File Structure
+
+- app.js --> The express app.
+- config (folder) --> Configuration files.
+- models --> Monggose schemas.
+- routes --> API endpoints.
+- middleware --> Middlewares for request i.e. authentication.
+- controllers --> Middlewares that control the response of an API.
+- helpers (folder) --> Reusable helper functions.
+
+# Running the App
+
+To run the backend use npm start. Runs on port 8080.
+
+# TODO
+
+Add automated unit/api testing.
+Add UI.
